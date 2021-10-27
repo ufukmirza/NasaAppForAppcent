@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/layout">
+
+
+        <TextView
+            app:layout_constraintTop_toTopOf="@+id/layout"
+            app:layout_constraintLeft_toLeftOf="@+id/layout"
+            app:layout_constraintRight_toRightOf="@+id/layout"
+            android:id="@+id/textFilter"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera Filter:"
+            android:textSize="24dp"></TextView>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chips_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textFilter"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:id="@+id/fhaz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="fhaz" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/rhaz"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipCornerRadius="5dp"
+            android:textColor="@color/white"
+            android:text="rhaz" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/mast"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipCornerRadius="5dp"
+            android:textColor="@color/white"
+            android:text="mast" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chemcam"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipCornerRadius="5dp"
+            android:textColor="@color/white"
+            android:text="chemcam" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/mahli"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipCornerRadius="5dp"
+            android:textColor="@color/white"
+            android:text="mahli" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/mardi"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipCornerRadius="5dp"
+            android:textColor="@color/white"
+            android:text="mardi" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/navcam"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipCornerRadius="5dp"
+            android:textColor="@color/white"
+            android:text="navcam" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/pancam"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipCornerRadius="5dp"
+            android:textColor="@color/white"
+            android:text="pancam" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/minites"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipCornerRadius="5dp"
+            android:textColor="@color/white"
+            android:text="minites" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Filter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chips_group" />
+    ,
+
+</androidx.constraintlayout.widget.ConstraintLayout>

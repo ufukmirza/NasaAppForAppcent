@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:alpha="0.7"
+    android:layout_gravity="center">
+    
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+
+        <TextView
+            android:id="@+id/rover_date"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rover date:"
+            android:textSize="14dp"></TextView>
+        <TextView
+            android:id="@+id/rover_name"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rover name:"
+            android:textSize="14dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/rover_camera"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rover camera:"
+            android:textSize="14dp"></TextView>
+
+        <TextView
+            android:id="@+id/rover_status"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rover status:"
+            android:textSize="14dp"></TextView>
+
+        <TextView
+            android:id="@+id/rover_launch_date"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rover launch date:"
+            android:textSize="14dp"></TextView>
+        <TextView
+            android:id="@+id/rover_landing_date"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rover landing date:"
+            android:textSize="14dp"></TextView>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/rover_photo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></ImageView>
+
+
+</RelativeLayout>

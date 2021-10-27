@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_curiosity"
+        android:icon="@drawable/mars_rover"
+        android:title="@string/title_curiosity" />
+
+    <item
+        android:id="@+id/navigation_oppurtunity"
+        android:icon="@drawable/mars_rover"
+        android:title="Opportunity" />
+
+    <item
+        android:id="@+id/navigation_spirit"
+        android:icon="@drawable/mars_rover"
+        android:title="@string/title_spirit" />
+
+</menu>
